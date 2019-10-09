@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Launch Pacman Application
+
+1. Clone repository
+2. run `npm install`
+3. run `npm start`
+
+# Default Create app related scripts
+
 ## Available Scripts
 
 In the project directory, you can run:
