@@ -52,16 +52,16 @@ class Board extends React.Component {
 
     const FaceVal = direction => {
       let value = null;
-      if (direction == "left") {
+      if (direction === "left") {
         value = "West";
       }
-      if (direction == "right") {
+      if (direction === "right") {
         value = "East";
       }
-      if (direction == "up") {
+      if (direction === "up") {
         value = "North";
       }
-      if (direction == "down") {
+      if (direction === "down") {
         value = "South";
       }
       return value;
