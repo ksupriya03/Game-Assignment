@@ -1,0 +1,64 @@
+.divclass {
+  line-height: 0px;
+  margin: -2px;
+  vertical-align: top;
+}
+
+.pacman {
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/images/pacman.png');
+  display: inline-block;
+}
+
+.pacman.up {
+  transform: rotate(270deg);
+}
+
+.pacman.down {
+  transform: rotate(90deg);
+}
+
+.pacman.left {
+  transform: rotate(-180deg);
+}
+
+.pacman.right {
+  transform: rotate(0deg);
+}
+
+.wall {
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/images/wall.png');
+  display: inline-block;
+}
+
+.coin {
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/images/coin.png');
+  display: inline-block;
+}
+
+.ground {
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/images/ground.png');
+  display: inline-block;
+}
+
+.board {
+  margin: 1rem auto;
+}
+
+.btnclass {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.inputclass {
+  width: 50%;
+  height: 20px;
+}
